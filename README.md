@@ -2,7 +2,7 @@
 
 Utilização de controle PID na robótica
 
-    Sistemas dinâmicos podem ser de forma generalizada vista como abstrações que descrevem algo que muda ao longo do tempo. Um veículo se 
+   Sistemas dinâmicos podem ser de forma generalizada vista como abstrações que descrevem algo que muda ao longo do tempo. Um veículo se 
  movendo e etc. Esses sistemas dinâmicos podem ser controlados, para isso é necessário primeiramente uma forma de descrever o que o 
  sistema está fazendo ou atuando, como é o seu comportamento ao longo do tempo. Entre as formas de controle de sistemas que existe temos, 
  o controle proporcional-integrativo-derivativo (PID), que é composto por três variáveis: Kp; Ki; Kd; que são respectivamente ganho 
@@ -16,13 +16,13 @@ Utilização de controle PID na robótica
 
 Métodos
 
-    Para a realização deste projeto foi realizada a montagem de um Robô seguidor de linha, e após a montagem física dos componentes foram
+   Para a realização deste projeto foi realizada a montagem de um Robô seguidor de linha, e após a montagem física dos componentes foram
  desenvolvidos os códigos de programação e realizados alguns testes em um circuito para que o Robô tente completar todo o circuito 
  seguindo a linha com uma determinada velocidade, controlando a aceleração e frenagem.
 
 Resultados
 
-    As principais necessidades de um sistema de controle estão: estabilidade, alcançar o objetivo e robustez. No controle PID, o 
+   As principais necessidades de um sistema de controle estão: estabilidade, alcançar o objetivo e robustez. No controle PID, o 
  coeficiente proporcional contribuí para a estabilidade do sistema, o coeficiente integral contribui com para a rejeição de distúrbios, 
  mas têm uma taxa lenta de resposta, o que pode causar oscilações.
     Enquanto que o componente derivativo contribui com respostas mais rápidas aos distúrbios. Um fato curioso é o de que a estabilidade 
